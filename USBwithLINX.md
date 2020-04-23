@@ -75,6 +75,10 @@ NumOfResources=5
 Để dùng Serial này ta phải config system của raspberry bằng
  ```sudo raspi-config``` sau đó vào ```5. Interfacing Options``` -> ```P6. Serial``` -> ```OK``` và reboot Raspberry để dùng cổng UART trên pin 14,15.
 
+ Sau đó ta cần disable Serial Console:
+
+ ```sudo nano /boot/cmdline.txt``` -> remote ```console=serial0,115200``` -> ```sudo reboot```
+
 
 
 - /dev/ttyUSB0 là cổng USB của raspberry
