@@ -70,8 +70,8 @@ NumOfResources=5
 
 ```
 
-
-- /dev/ttyAMA0 là các chân 14 , 15(TX,RX) trên header của raspberry.
+- /dev/ttyS0 :  Cong
+- /dev/ttyS0 là các chân 14 , 15(TX,RX) trên header của raspberry.
 Để dùng Serial này ta phải config system của raspberry bằng
  ```sudo raspi-config``` sau đó vào ```5. Interfacing Options``` -> ```P6. Serial``` -> ```OK``` và reboot Raspberry để dùng cổng UART trên pin 14,15.
 
