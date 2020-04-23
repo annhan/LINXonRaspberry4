@@ -1,0 +1,1 @@
+LINX on the RPi is a real-time system (of sorts, although not highly deterministic), then normal button-press events do not work. User events do work though.
