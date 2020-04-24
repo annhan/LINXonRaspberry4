@@ -8,3 +8,5 @@ Manual: install LINX with raspberry4
 
 4. [EventStruct](file/EventStruct.md)
 
+5. [Deploying A Startup Executable](file/DeployingAStartupExecutable.md)
+
