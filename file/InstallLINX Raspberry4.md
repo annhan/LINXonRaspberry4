@@ -56,5 +56,5 @@ fix:
 sudo nano /etc/apt/sources.list
 
 modify the text file according to the attached picture. use control+x to exit. press y to confirm to save the file.
-Pic1
 ```
+![Install Modbus Slaver](../pic/pic1.jpg)
